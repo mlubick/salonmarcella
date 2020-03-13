@@ -2,7 +2,6 @@ const webpack = require("webpack");
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const Dotenv = require("dotenv-webpack");
-
 module.exports = (env, argv) => {
   return {
     // Define the entry points of our application (can be multiple for different sections of a website)
